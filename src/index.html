@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rummikub</title>
+
+    <style type="text/css">
+      #racks {
+        display: flex;
+      }
+
+      .player-rack {
+        margin: 20px;
+      }
+
+      .player-rack.current .name {
+        font-weight: bold;
+      }
+
+      .rack {
+        list-style-type: none;
+        padding-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="racks"></div>
+    <input type="text" id="input" />
+    <button id="submit">Submit</button>
+    <div id="board"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

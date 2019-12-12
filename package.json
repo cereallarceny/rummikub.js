@@ -1,0 +1,43 @@
+{
+  "name": "rummikub",
+  "version": "1.0.0",
+  "description": "This is simply a version of Rummikub that runs in the browser. How nice.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cereallarceny/rummikub.js.git"
+  },
+  "keywords": [
+    "rummikub"
+  ],
+  "author": "Patrick Cason <me@patrickcason.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cereallarceny/rummikub.js/issues"
+  },
+  "homepage": "https://github.com/cereallarceny/rummikub.js#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "path": "^0.12.7",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
